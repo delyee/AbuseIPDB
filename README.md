@@ -1,11 +1,18 @@
 ## Hello
+
+
+[![asciicast](https://asciinema.org/a/sQS33pvbWextuvBpp3PFvjUZi.svg)](https://asciinema.org/a/sQS33pvbWextuvBpp3PFvjUZi)
+
+
 - This is just one useless utility
 - You need to insert your API token, without this nothing will work
+- `pip3 install --user -r requirements.txt`
+
 
 ## Tool output:
 
 ```
-➜  AbuseIPDB_checker git:(master) ✗ python3 main.py IPs.txt            
+➜  AbuseIPDB_checker git:(master) ✗ python3 main.py -f IPs.txt            
 +-----------------+--------------+
 | ipAddress       | totalReports |
 +-----------------+--------------+
