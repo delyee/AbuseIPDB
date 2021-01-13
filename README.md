@@ -8,8 +8,11 @@
 ## Tool output:
 
 ```shell
-# -t 15
-➜  AbuseIPDB_checker git:(master) ✗ python3 main.py -f IPs.txt --totalReports 15            
+# python3 main.py -fn /var/log/nginx/[EDITED].ru/[EDITED].access_log
+# python3 main.py -dn /var/log/nginx
+# python3 main.py --help
+
+➜  AbuseIPDB_checker git:(master) ✗ python3 main.py -f IPs.txt            
 +-----------------+--------------+
 | ipAddress       | totalReports |
 +-----------------+--------------+
@@ -30,3 +33,6 @@
 | 185.220.101.205 |     935      |
 +-----------------+--------------+
 ```
+
+## tips:
+- support `xz` `gz`
