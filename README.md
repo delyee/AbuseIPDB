@@ -7,8 +7,9 @@
 
 ## Tool output:
 
-```
-➜  AbuseIPDB_checker git:(master) ✗ python3 main.py -f IPs.txt            
+```shell
+# -t 15
+➜  AbuseIPDB_checker git:(master) ✗ python3 main.py -f IPs.txt --totalReports 15            
 +-----------------+--------------+
 | ipAddress       | totalReports |
 +-----------------+--------------+
